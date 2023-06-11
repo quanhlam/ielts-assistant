@@ -1,0 +1,26 @@
+body {
+  display:flex; flex-direction:column;
+}
+
+.horizontally-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh; /* Set the height of the container */
+}
+
+.left-and-vertically-centered {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  height: 100vh; /* Set the height of the container */
+}
