@@ -12,7 +12,6 @@ export function Homepage() {
       setLoading(true);
       setReviews(null);
       const response = await WritingService.post(question, essay);
-      console.log("RESPONSE:", response);
       setReviews(response?.data?.data);
       setLoading(false);
     }
@@ -20,7 +19,7 @@ export function Homepage() {
 
   return (
     <div className="centered">
-      <h1>Ielts Writing Digital Assistant</h1>
+      <h1>IELTS Writing Digital Assistant</h1>
       <h3> Question: </h3>
       <textarea
         className="question-textarea"
