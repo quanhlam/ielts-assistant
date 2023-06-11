@@ -10,6 +10,7 @@ body {
 }
 
 .centered {
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,4 +24,21 @@ body {
   align-items: center;
   text-align: left;
   height: 100vh; /* Set the height of the container */
+}
+
+.question-textarea {
+  min-height: 70px; /* Set the minimum height */
+  min-width: 700px; /* Set the minimum width */
+}
+
+.essay-textarea {
+  min-height: 300px; /* Set the minimum height */
+  min-width: 700px; /* Set the minimum width */
+}
+
+.review-textarea {
+  min-height: 90px; /* Set the minimum height */
+  min-width: 700px; /* Set the minimum width */
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
