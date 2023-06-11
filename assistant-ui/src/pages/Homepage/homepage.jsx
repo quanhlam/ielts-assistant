@@ -18,7 +18,7 @@ export function Homepage() {
   };
 
   return (
-    <div className="centered">
+    <div className="horizontally-centered">
       <h1>IELTS Writing Digital Assistant</h1>
       <h3> Question: </h3>
       <textarea
