@@ -32,7 +32,7 @@ body {
 }
 
 .essay-textarea {
-  min-height: 300px; /* Set the minimum height */
+  min-height: 100px; /* Set the minimum height */
   min-width: 700px; /* Set the minimum width */
 }
 
