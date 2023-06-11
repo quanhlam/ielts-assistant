@@ -37,17 +37,17 @@ body {
 
 .question-textarea {
   min-height: 70px; /* Set the minimum height */
-  min-width: 700px; /* Set the minimum width */
+  min-width: 50vw;; /* Set the minimum width */
 }
 
 .essay-textarea {
   min-height: 100px; /* Set the minimum height */
-  min-width: 700px; /* Set the minimum width */
+  min-width: 50vw;; /* Set the minimum width */
 }
 
 .review-textarea {
   min-height: 90px; /* Set the minimum height */
-  min-width: 700px; /* Set the minimum width */
+  min-width: 50vw;; /* Set the minimum width */
   margin-bottom: 10px;
   margin-top: 10px;
 }
